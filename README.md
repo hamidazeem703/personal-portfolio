@@ -17,4 +17,4 @@ It is built using HTML and CSS with a simple and clean design.
 
 ## How to Run
 1. Download or clone this repository.
-2. Open the `personalPortfolio.html` file in a web browser.
+2. Open the `personalPortfolio.html` file in a web   browser.
