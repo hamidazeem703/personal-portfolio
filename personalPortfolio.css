@@ -1,0 +1,161 @@
+body{
+    background-color: #FAF9EE;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 250px 900px;
+     background-color: bisque;
+     align-items: center;
+}
+#heading{
+    margin: 0%;
+        text-align: left;
+    }
+  #navbar{
+    
+    text-align:end;
+    margin-right: 50px;
+   }
+ #navbar  a{
+margin-right: 40px;
+   }
+#navbar a:hover{
+    color: aquamarine;
+}
+
+
+#About  {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: brown;
+    background-color: beige;
+    
+}
+
+#projects{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 200px 200px 200px;
+    background-color: blanchedalmond;
+    grid-template-rows: minmax(auto);
+    align-items: center;
+    text-align: center;
+}
+.box{
+    height: 150px;
+    width: 300px;
+    padding-right: 20px;
+    margin-right: 30px;
+    background-color: lightblue;
+    align-items: center;
+    text-align: center;
+}
+
+/* ==== Skills Section ==== */
+#skills {
+    text-align: center;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+
+li {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Progress bars */
+.progress-bar {
+    height: 12px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.html {
+    width: 90%;
+    background-color: lightgreen;
+}
+
+.css {
+    width: 80%;
+    background-color: lightblue;
+}
+
+.js {
+    width: 65%;
+    background-color: orange;
+}
+
+/* ==== Contact Section ==== */
+#contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+/* ==== Footer ==== */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Footer */
+@media (max-width: 500px) {
+    footer p {
+        font-size: 14px;
+    }
+}
